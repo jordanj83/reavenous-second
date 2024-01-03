@@ -15,15 +15,15 @@ const Business = () => {
   };
   return (
     <div>
-      <img alt='food' />
-      <h1>Name</h1>
-      <p>address</p>
-      <p>city</p>
-      <p>state</p>
-      <p>zipcode</p>
-      <p>category</p>
-      <p>rating</p>
-      <p>review count</p>
+      <img src={newBusiness.imageSrc} alt='pizza' />
+      <h1>{newBusiness.name}</h1>
+      <p>{newBusiness.address}</p>
+      <p>{newBusiness.city}</p>
+      <p>{newBusiness.state}</p>
+      <p>{newBusiness.zipCode}</p>
+      <p>{newBusiness.category}</p>
+      <p>{newBusiness.rating}</p>
+      <p>{newBusiness.reviewCount}</p>
     </div>
 
   );
